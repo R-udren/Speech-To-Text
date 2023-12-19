@@ -15,25 +15,35 @@ models to recognize speech.
 ## Installation
 
 1. Clone this repository
-   ```bash
-   git clone https://github.com/R-udren/Speech-To-Text.git
-   ```
+
+```bash
+git clone https://github.com/R-udren/Speech-To-Text.git
+```
+
 2. Change directory to `Speech-To-Text`
-   ```bash
-   cd Speech-To-Text
-   ```
+
+```bash
+cd Speech-To-Text
+```
+
 3. Create virtual environment
-   ```bash
-   python -m venv venv
-   ```
+
+```bash
+python -m venv venv
+```
+
 4. Activate virtual environment
-   ```bash
-   venv\Scripts\activate.bat
-   ```
+
+```bash
+venv\Scripts\activate.bat
+```
+
 5. Install requirements using:
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+```bash
+pip install -r requirements.txt
+```
+
 6. Download Vosk model from [here](https://alphacephei.com/vosk/models) and extract it to `models` folder
 
 ## Usage
