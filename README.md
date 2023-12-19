@@ -7,22 +7,33 @@ models to recognize speech.
 
 ## Requirements
 
-- Windows 10/11
+- Windows 10/11 (Not tested on other OS)
 - Python 3.6 or higher
-- [Vosk model](https://alphacephei.com/vosk/models)
-- Other dependencies are in `requirements.txt`
+- [Vosk model](https://alphacephei.com/vosk/models) (Download and extract it to `models` folder)
+- Other dependencies are in `requirements.txt` file
 
 ## Installation
 
 1. Clone this repository
-   `git clone https://github.com/R-udren/Speech-To-Text.git`
+   ```bash
+   git clone https://github.com/R-udren/Speech-To-Text.git
+   ```
 2. Change directory to `Speech-To-Text`
-   `cd Speech-To-Text`
+   ```bash
+   cd Speech-To-Text
+   ```
 3. Create virtual environment
-   `python -m venv venv`
+   ```bash
+   python -m venv venv
+   ```
 4. Activate virtual environment
-   `venv\Scripts\activate.bat`
-5. Install requirements using `pip install -r requirements.txt`
+   ```bash
+   venv\Scripts\activate.bat
+   ```
+5. Install requirements using:
+   ```bash
+   pip install -r requirements.txt
+   ```
 6. Download Vosk model from [here](https://alphacephei.com/vosk/models) and extract it to `models` folder
 
 ## Usage
@@ -38,13 +49,13 @@ models to recognize speech.
 
 ### Batch Script Usage
 
-1. Create shortcut of `run.bat` file (Optional)
+1. Create shortcut of `run.bat` file **(Optional)**
 2. Run `run.bat` file or shortcut
 
 ## Author
 
-[R-udren](https://github.com/R-udren)
-Discord: rovert777
+- Github: [R-udren](https://github.com/R-udren)
+- Discord: rovert777
 
 ## License
 
