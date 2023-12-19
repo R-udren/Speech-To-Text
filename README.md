@@ -30,6 +30,7 @@ models to recognize speech.
 1. Run `main.py`
    `python main.py`
 2. Follow the instructions in the program
+3. Press `Ctrl + C` to stop the program
 
 ## Author
 
