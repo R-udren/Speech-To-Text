@@ -27,10 +27,19 @@ models to recognize speech.
 
 ## Usage
 
-1. Run `main.py`
+### Manual Usage
+
+1. Activate virtual environment
+   `venv\Scripts\activate.bat`
+2. Run `main.py`
    `python main.py`
-2. Follow the instructions in the program
-3. Press `Ctrl + C` to stop the program
+3. Follow the instructions in the program
+4. Press `Ctrl + C` to stop the program
+
+### Batch Script Usage
+
+1. Create shortcut of `run.bat` file (Optional)
+2. Run `run.bat` file or shortcut
 
 ## Author
 
