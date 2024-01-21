@@ -70,7 +70,7 @@ def main():
     microphone, speaker = sd.default.device
     samplerate = sd.query_devices(microphone, 'input')['default_samplerate']
 
-    console.print(f"\n[green]Current settings:")
+    console.print("\n[green]Current settings:")
     console.print(f"[cyan]Using microphone[/cyan]: {sd.query_devices(microphone, 'input')['name']} ({samplerate} Hz)")
     console.print(f"[cyan]Using speaker[/cyan]: {sd.query_devices(speaker, 'output')['name']}")
 
@@ -78,7 +78,7 @@ def main():
 
     with sd.RawInputStream(samplerate=samplerate, blocksize=8000, device=microphone, dtype='int16',
                            channels=1, callback=callback):
-        console.print("\nListening...")
+        console.print("\n[magenta]Listening...")
         rec = vosk.KaldiRecognizer(model, samplerate)
         while True:
             data = q.get()
