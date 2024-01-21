@@ -161,3 +161,4 @@ cython_debug/
 
 # Chad
 models/*
+!models/PLACE_YOUR_MODELS_HERE
