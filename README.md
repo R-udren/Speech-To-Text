@@ -9,6 +9,7 @@ models to recognize speech.
 
 - Windows 10/11 (Not tested on other OS)
 - Python 3.6 or higher
+- Git (For cloning)
 - [Vosk model](https://alphacephei.com/vosk/models) (Download and extract it to `models` folder)
 - Other dependencies are in `requirements.txt` file
 
